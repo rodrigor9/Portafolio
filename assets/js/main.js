@@ -243,5 +243,17 @@
       clickable: true
     }
   });
+  
+  const language = ({target}) => {
+    if (target.checked) {
+      location.href="es/";
+    } else {
+      location.href="../";
+    }
+  }
+  const check = document.querySelector("#language");
+  check.addEventListener("click",language);
+
+
 
 })()

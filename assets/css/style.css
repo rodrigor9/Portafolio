@@ -65,7 +65,16 @@ a.enlaces::before {
   a.enlaces:hover::before {
     transform-origin: left;
     transform: scaleX(1);
-}
+  }
+
+  .form-check-input:checked {
+    background-color: #7b00ee;
+    border-color: #7b00ee;
+  }
+
+  .transition {
+    transition: ease-in-out 0.3s;
+  }
 
 /*--------------------------------------------------------------
 # Header
